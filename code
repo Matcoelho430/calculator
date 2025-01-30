@@ -6,14 +6,16 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-####Create a function for multiplication and add the function printf
-
 # Function for division
 def divide(a, b):
     if b != 0:
         return a / b
     else:
         return "Division by zero is not allowed!"
+        
+####Create a function for multiplication and add the function printf
+def multiply(a, b):
+    return a * b
 
 # Main program
 print("Basic Arithmetic Operations")
@@ -24,3 +26,4 @@ print("\nResults:")
 print(f"Addition: {add(num1, num2)}")
 print(f"Subtraction: {subtract(num1, num2)}")
 print(f"Division: {divide(num1, num2)}")
+print(f"Multiplication: {multiply(num1, num2)}")
