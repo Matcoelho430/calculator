@@ -6,6 +6,7 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+####Can you please delete the multiplication function and also the formula.
 # Function for multiplication
 def multiply(a, b):
     return a * b
