@@ -6,6 +6,8 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+####Create a function for multiplication and add the function printf
+
 # Function for division
 def divide(a, b):
     if b != 0:
