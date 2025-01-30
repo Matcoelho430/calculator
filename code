@@ -6,11 +6,6 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-####Can you please delete the multiplication function and also the formula.
-# Function for multiplication
-def multiply(a, b):
-    return a * b
-
 # Function for division
 def divide(a, b):
     if b != 0:
@@ -26,5 +21,4 @@ num2 = float(input("Enter the second number: "))
 print("\nResults:")
 print(f"Addition: {add(num1, num2)}")
 print(f"Subtraction: {subtract(num1, num2)}")
-print(f"Multiplication: {multiply(num1, num2)}")
 print(f"Division: {divide(num1, num2)}")
